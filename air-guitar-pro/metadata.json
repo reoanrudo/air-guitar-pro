@@ -1,0 +1,7 @@
+{
+  "name": "Air Guitar Pro",
+  "description": "A cross-device air guitar application using PC camera for strumming and smartphone for fretboard controls via WebRTC.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
