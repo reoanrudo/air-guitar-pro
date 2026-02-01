@@ -3,8 +3,24 @@
 # dependencies
 node_modules/
 
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+dist-python/
+.pytest_cache/
+.coverage
+
 # Expo
 .expo/
+.expo-shared/
 dist/
 web-build/
 expo-env.d.ts
@@ -25,6 +41,7 @@ expo-env.d.ts
 npm-debug.*
 yarn-debug.*
 yarn-error.*
+pnpm-debug.*
 
 # macOS
 .DS_Store
@@ -38,10 +55,6 @@ yarn-error.*
 
 app-example
 
-# generated native folders
-/ios
-/android
-
 # IDE
 .vscode/
 .idea/
@@ -50,7 +63,7 @@ app-example
 *~
 
 # Logs
-logs
+logs/
 *.log
 
 # OS
